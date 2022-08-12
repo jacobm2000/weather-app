@@ -1,0 +1,69 @@
+body{
+    
+    background-image: url('images/0.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-color: rgb(10, 10, 73);
+    justify-content: center;
+    display: grid;
+}
+#city{
+    color: white;
+    font-size: xx-large;
+}
+#input{
+    margin-top: 6rem;
+}
+#output{
+    color: black;
+}
+.card{
+    text-align: center;
+    box-shadow: 10px 10px 25px black;
+}
+#des{
+    font-size: larger;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 4px 8px 20px black;
+  
+  
+}
+#top-img{
+    height: 5rem;
+    width: 5rem;
+    margin-bottom: 0;
+    display: inline;
+}
+#top{
+    position:fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-style: italic;
+}
+#min-temp{
+    
+    display: inline;
+    margin-top: 1rem;
+    
+}
+#max-temp{
+display: inline;
+font-size: 1.5rem;
+}
+#feels{
+    font-style: italic;
+    font-size:.75rem;
+}
+#ctemp{
+    font-size: 2rem;
+}
+
+@media only screen and (min-width: 500px) {
+ body{
+    background-repeat: repeat-y;
+ }
+}
