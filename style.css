@@ -24,6 +24,7 @@ body{
 .card{
     text-align: center;
     box-shadow: 10px 10px 25px black;
+    width: 18rem;
 }
 #des{
     font-size: larger;
@@ -39,9 +40,9 @@ body{
     display: inline;
 }
 #top{
- 
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.25);
+    
+   
+   
     color: white;
     font-family:'Times New Roman', Times, serif;
     font-weight: bolder;
@@ -65,4 +66,46 @@ font-size: 1.5rem;
     font-size: 2rem;
 }
 
+
+
+@media only screen and (min-width: 2000px) {
+    h1{
+        font-size: 6rem;
+    }
+    .card {
+        font-size: xx-large;
+        width: 35rem;
+        height: 30;
+    }
+    #min-temp{
+        
+        display: inline;
+        
+        font-size: 2.5rem;
+        
+    }
+    #max-temp{
+    display: inline;
+    font-size: 4rem;
+    }
+    #feels{
+        font-style: italic;
+        font-size:2.25rem;
+    }
+    #ctemp{
+        font-size: 4rem;
+    }
+    #city-name{
+        font-size: 4rem;
+    }
+    #input{
+        font-size: 3rem;
+    }
+    #units{
+        font-size: 3rem;
+    }
+    #button{
+        font-size: 3rem;
+    }
+  }
 
