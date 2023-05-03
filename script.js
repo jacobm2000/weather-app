@@ -28,7 +28,7 @@ button.addEventListener('click',function(){
         windUnit=" MPH"
       
     }
-    console.log(input.value)
+   
     fetch('https://api.openweathermap.org/data/2.5/weather?q=' +input.value +'&units='+units.value+'&appid=33efd2f205cb947b7271305842fcd19a')
     .then(response =>  response.json())
     .then(data => {
