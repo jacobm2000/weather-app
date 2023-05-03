@@ -19,7 +19,7 @@ button.addEventListener('click',function(){
     if(units.value =='metric'){
         tempUnit=" °C"
         windUnit=" m/s"
-        console.log("moo") 
+      
         
      
     }
@@ -32,7 +32,6 @@ button.addEventListener('click',function(){
     fetch('https://api.openweathermap.org/data/2.5/weather?q=' +input.value +'&units='+units.value+'&appid=33efd2f205cb947b7271305842fcd19a')
     .then(response =>  response.json())
     .then(data => {
-    console.log(data)
     temp.textContent=data['main']['temp'] +tempUnit
     min.textContent=data['main']['temp_min'] + tempUnit
     max.textContent=data['main']['temp_max'] + tempUnit
