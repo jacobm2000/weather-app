@@ -4,6 +4,6 @@ choosing by calling the open weather map API and displaying the data in a easily
 
 a deployment of the project is avalavile here: https://jacobm2000.github.io/weather-app/
 
-### Screenshot
+### Demo
 
-![](./images/screenshot.JPG)
+![](./images/demo.gif)
