@@ -29,7 +29,7 @@ button.addEventListener('click',function(){
       
     }
    
-    fetch('https://api.openweathermap.org/data/2.5/weather?q=' +input.value +'&units='+units.value+'&appid=2eef00cbf2cfa4f414271b1ff220beac')
+    fetch('https://api.openweathermap.org/data/2.5/weather?q=' +input.value +'&units='+units.value+'&appid='+SECRET_KEY)
     .then(response =>  response.json())
     .then(data => {
     temp.textContent=data['main']['temp'] +tempUnit
